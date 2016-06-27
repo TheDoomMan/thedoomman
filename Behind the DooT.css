@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+
+#container { display:block; }
+
+@media only screen and (orientation:portrait){
+
+  #container {
+
+    height: 100vw;
+
+    -webkit-transform: rotate(90deg);
+
+    -moz-transform: rotate(90deg);
+
+    -o-transform: rotate(90deg);
+
+    -ms-transform: rotate(90deg);
+
+    transform: rotate(90deg);
+
+  }
+
+}
+
+@media only screen and (orientation:landscape){
+
+  #container {
+
+     -webkit-transform: rotate(0deg);
+
+     -moz-transform: rotate(0deg);
+
+     -o-transform: rotate(0deg);
+
+     -ms-transform: rotate(0deg);
+
+     transform: rotate(0deg);
+
+  }
+  
+  #PageContainer
+  {
+	  background: #2E2D2D;
+	  margin-top: -55px;
+	  width: 1540px;
+	  height: 950px;
+	background:rgba(64,64,64,0.7);
+	border: 3px solid #000000;
+  }
+	
+	#PageContainer2
+	{
+	background: #6F0001;
+	margin-left: 160px;
+	margin-top: -800px;
+	width: 1540px;
+	height: 73px;
+	background: rgba(64,64,64,0.7);
+	border: 3px solid #000000;
+		
+}
+	#PageContainerMother
+	{
+		background: #;
+		height: 700px
+		
+}
+	#PageContainerPages	
+	{
+		background: #745455;
+		margin-right: 1450px;
+		width: 145px;
+		height: 800px;
+		background:rgba(51,51,255,0.7);
+		border:3px solid #000000;
+		
+	}
+	
+	#PageContainerSources
+	{
+		background: #2A3C49;
+		margin-left: 1710px;
+		height: 800px;
+		width: 145px;
+		margin-top: -600px;
+		border:3px solid #000000;
+		background:rgba(51,51,255,0.7);
+	}
+	
+	#search
+	{
+	
+	
+	
+	/* CSS Document */
